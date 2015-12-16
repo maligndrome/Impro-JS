@@ -8,6 +8,9 @@ A lightweight image processing library in JS
 - Layering
 
 ##Current features:
+- Edge detect
+- Emboss
+- Blur
 - Sepia
 - Greyscale
 - Scaling
@@ -26,7 +29,7 @@ Valid `data-*` attributes and values:
 - `scale` : uniformly scale image along x and y
 - `scale-x` : Scale along the width
 - `scale-y` : Scale along the height
-- `type` : Type of transformation (custom, sepia, grey)
+- `type` : Type of transformation (custom, sepia, grey, blur, emboss, edge)
 - `convolution-matrix` : Only for custom, specify the kernel for convolution. 
 
 ###Convolution Matrix format
@@ -45,4 +48,4 @@ The correct format is:
 ```
 1,2,3|4,5,6|7,8,9
 ```
-*Note that the kernel has to a square matrix* (No error checking provided yet)
+*Note that the kernel has to a square matrix*
