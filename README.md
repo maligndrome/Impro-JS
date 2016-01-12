@@ -48,4 +48,4 @@ The correct format is:
 ```
 1,2,3|4,5,6|7,8,9
 ```
-*Note that the kernel has to a square matrix*
+*Note that the kernel has to be a square matrix*
